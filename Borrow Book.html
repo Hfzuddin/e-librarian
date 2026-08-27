@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    
+
+<head>        
+        
+        <!-- Meta -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+        
+        <!-- Title -->
+        <title>5MEN LIBRARY Detail Info</title>
+        
+        <!-- Favicon -->
+        <link href="images/Logo.png" rel="icon" type="image/png" />
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Mobile Menu -->
+        <link href="css/mmenu.css" rel="stylesheet" type="text/css" />
+        <link href="css/mmenu.positioning.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Stylesheet -->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.1/darkly/bootstrap.min.css" rel="stylesheet" />
+        
+		<script>
+        $(function() {
+            $("#datepicker").datepicker();
+        });
+    </script>
+	
+    
+        <!-- Navbar Custom Style -->
+        <style>
+            /* ===== NAVBAR PREMIUM STYLE ===== */
+            #header-v1 .navbar {
+                background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%) !important;
+                border: none !important;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+                padding: 0 !important;
+                min-height: 62px;
+            }
+
+            /* Brand */
+            #header-v1 .navbar-brand {
+                padding: 12px 20px !important;
+                display: flex;
+                align-items: center;
+                transition: opacity 0.3s;
+            }
+            #header-v1 .navbar-brand:hover { opacity: 0.85; }
+            #header-v1 .navbar-brand img {
+                height: 32px !important;
+                margin-right: 10px !important;
+                filter: drop-shadow(0 0 6px rgba(255,255,255,0.3));
+            }
+            #header-v1 .navbar-brand span {
+                font-size: 17px;
+                font-weight: 700;
+                letter-spacing: 2px;
+                color: #fff !important;
+                text-shadow: 0 0 10px rgba(100,180,255,0.4);
+            }
+
+            /* Nav links */
+            #header-v1 .navbar-nav > li > a {
+                color: rgba(255,255,255,0.82) !important;
+                font-size: 14px !important;
+                font-weight: 500 !important;
+                padding: 20px 14px !important;
+                letter-spacing: 0.5px;
+                transition: color 0.25s, background 0.25s;
+                position: relative;
+            }
+            #header-v1 .navbar-nav > li > a .fa {
+                margin-right: 5px;
+                font-size: 13px;
+                opacity: 0.85;
+            }
+
+            /* Animated underline on hover */
+            #header-v1 .navbar-nav > li > a::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                right: 50%;
+                height: 3px;
+                background: linear-gradient(90deg, #4facfe, #00f2fe);
+                border-radius: 2px 2px 0 0;
+                transition: left 0.3s ease, right 0.3s ease;
+            }
+            #header-v1 .navbar-nav > li > a:hover::after,
+            #header-v1 .navbar-nav > li.active > a::after {
+                left: 0;
+                right: 0;
+            }
+
+            /* Hover state */
+            #header-v1 .navbar-nav > li > a:hover {
+                color: #fff !important;
+                background: rgba(255,255,255,0.07) !important;
+            }
+
+            /* Active state */
+            #header-v1 .navbar-nav > li.active > a {
+                color: #4facfe !important;
+                background: rgba(79,172,254,0.1) !important;
+            }
+
+            /* Login & Exit buttons — pill style */
+            #header-v1 .navbar-nav > li:nth-last-child(-n+2) > a {
+                border: 1px solid rgba(79,172,254,0.5);
+                border-radius: 25px;
+                margin: 12px 4px;
+                padding: 7px 16px !important;
+                transition: background 0.3s, border-color 0.3s, color 0.3s;
+            }
+            #header-v1 .navbar-nav > li:nth-last-child(-n+2) > a::after { display: none; }
+            #header-v1 .navbar-nav > li:nth-last-child(-n+2) > a:hover {
+                background: linear-gradient(90deg, #4facfe, #00f2fe) !important;
+                border-color: transparent !important;
+                color: #0f3460 !important;
+            }
+
+            /* Mobile toggle */
+            #header-v1 .navbar-toggle { border-color: rgba(255,255,255,0.3) !important; }
+            #header-v1 .navbar-toggle .icon-bar { background-color: #fff !important; }
+            #header-v1 .navbar-toggle:hover { background: rgba(255,255,255,0.1) !important; }
+
+            /* Mobile collapsed menu */
+            @media (max-width: 767px) {
+                #header-v1 .navbar-collapse { background: rgba(15,30,60,0.97); border: none; }
+                #header-v1 .navbar-nav > li > a::after { display: none; }
+                #header-v1 .navbar-nav > li:nth-last-child(-n+2) > a {
+                    margin: 4px 10px; width: fit-content;
+                }
+            }
+        </style>
+    </head>
+
+
+    <body>
+               <!-- Start: Header Section -->
+        <header id="header-v1" class="navbar-wrapper">
+            <nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.3); border-bottom: none;">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main-collapse" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="HomePage.html" style="padding: 10px 15px;">
+                            <img src="images/Logo.png" alt="Logo" style="height: 30px; display: inline-block; margin-right: 10px;"/>
+                            <span style="font-weight: bold; letter-spacing: 1px; color: #fff; vertical-align: middle;">5MEN LIBRARY</span>
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbar-main-collapse">
+                        <ul class="nav navbar-nav navbar-right" style="font-size: 15px; font-weight: 500;">
+                            <li><a href="HomePage.html"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="LIST OF BOOK.html"><i class="fa fa-book"></i> Books</a></li>
+                            <li><a href="Add Book.html"><i class="fa fa-plus-circle"></i> Add Book</a></li>
+                            <li><a href="Borrow Book.html"><i class="fa fa-handshake-o"></i> Borrow Book</a></li>
+                            <li><a href="Return Book.html"><i class="fa fa-mail-reply"></i> Return Book</a></li>
+                            <li><a href="Borrower Information.html"><i class="fa fa-users"></i> Borrowers</a></li>
+                            <li><a href="register.html"><i class="fa fa-user-plus"></i> Register</a></li>
+                            <li><a href="signin.html"><i class="fa fa-sign-in"></i> Login</a></li>
+                            <li><a href="signin.html"><i class="fa fa-sign-out"></i> Exit</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End: Header Section -->
+        
+        <!-- Start: Page Banner -->
+        <section class="page-banner services-banner">
+            <div class="container">
+                <div class="banner-header">
+                    <h2>DETAIL INFORMATION PAGE</h2>
+                    <span class="underline center"></span>
+                </div>
+            </div>
+        </section>
+        <!-- End: Page Banner -->
+		
+        <!-- Start: Cart Section -->
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+                    <div class="signin-main">
+                        <div class="container">
+                            <div class="woocommerce">
+                                <div class="woocommerce-login">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3">
+                                            
+                                            <div class="panel panel-info" style="margin-top: 30px;">
+                                                <div class="panel-body">
+                                                    <form class="form-inline text-center" action="#">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" name="query" placeholder="Borrower ID" style="width: 300px;">
+                                                        </div>
+                                                        <button type="submit" class="btn btn-info">Search</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                            <div class="panel panel-primary" style="margin-bottom: 50px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                                                <div class="panel-heading">
+                                                    <h3 class="panel-title text-center" style="font-weight:bold; font-size: 20px;">Borrow Book</h3>
+                                                </div>
+                                                <div class="panel-body" style="padding: 30px;">
+                                                    <form class="login" action="LIST OF BOOK.html">
+                                                        <div class="form-group">
+                                                            <label for="bookTitle">Book Title <span class="text-danger">*</span></label>
+                                                            <input type="text" id="bookTitle" name="bookTitle" class="form-control" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="authorName">Author Name <span class="text-danger">*</span></label>
+                                                            <input type="text" id="authorName" name="authorName" class="form-control" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="publisherName">Publisher Name <span class="text-danger">*</span></label>
+                                                            <input type="text" id="publisherName" name="publisherName" class="form-control" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="category">Category <span class="text-danger">*</span></label>
+                                                            <input type="text" id="category" name="category" class="form-control" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="datepicker">Borrow Date</label>
+                                                            <input type="date" id="datepicker" name="date" class="form-control" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="lateFine">Late Return Fine <span class="text-danger">*</span></label>
+                                                            <input type="text" id="lateFine" name="lateFine" class="form-control" required>
+                                                        </div>
+                                                        <div class="row" style="margin-top: 20px;">
+                                                            <div class="col-sm-6">
+                                                                <button type="submit" name="Confirm" class="btn btn-primary btn-block btn-lg">Borrow Book</button>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <button type="button" name="Back" class="btn btn-default btn-block btn-lg" onclick="window.history.back();">Back</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <!-- End: Cart Section -->
+        
+        <!-- Start: Social Network -->
+        <section class="social-network section-padding">
+            <div class="container">
+                <div class="center-content">
+                    <h2 class="section-title">Follow Us</h2>
+                   
+                </div>
+                <ul>
+                    <li>
+                        <a class="facebook" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-facebook-f"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="google" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-google-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rss" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-rss"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="linkedin" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-linkedin"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="youtube" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-youtube"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- End: Social Network -->
+        
+         <!-- Start: Footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div id="footer-widgets">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 widget-container">
+                            <div id="text-2" class="widget widget_text">
+                                <h3 class="footer-widget-title">About Us</h3>
+                                <span class="underline left"></span>
+                                <div class="textwidget">
+                                    We are one of the most library that being use by all the user. We start our library on 14 June 2023. We hope our system will help to make thing easier for others. 
+                                </div>
+                                <address>
+                                    <div class="info">
+                                        <i class="fa fa-location-arrow"></i>
+                                        <span>Machang, Kelantan</span>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-phone"></i>
+                                        <span><a>+ 011-1100-9026</a></span>
+                                    </div>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="clearfix hidden-lg hidden-md hidden-xs tablet-margin-bottom"></div>
+                        <div class="col-md-2 col-sm-6 widget-container">
+                            <div id="text-4" class="widget widget_text">
+                                <h3 class="footer-widget-title">Open Time</h3>
+                                <span class="underline left"></span>
+                                <div class="timming-text-widget">
+                                    <time datetime="2017-02-13">Mon - Thu: 9 am - 9 pm</time>
+                                    <time datetime="2017-02-13">Fri: 9 am - 6 pm</time>
+                                    <time datetime="2017-02-13">Sat: 9 am - 5 pm</time>
+                                    <time datetime="2017-02-13">Sun: 1 pm - 6 pm</time>
+                                </div>
+                            </div>			
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </footer>
+        <!-- End: Footer -->
+        
+        <!-- jQuery Latest Version 1.x -->
+        <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+        
+        <!-- jQuery UI -->
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        
+        <!-- jQuery Easing -->
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+        <!-- Mobile Menu -->
+        <script type="text/javascript" src="js/mmenu.min.js"></script>
+        
+        <!-- Harvey - State manager for media queries -->
+        <script type="text/javascript" src="js/harvey.min.js"></script>
+        
+        <!-- Waypoints - Load Elements on View -->
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+
+        <!-- Facts Counter -->
+        <script type="text/javascript" src="js/facts.counter.min.js"></script>
+
+        <!-- MixItUp - Category Filter -->
+        <script type="text/javascript" src="js/mixitup.min.js"></script>
+
+        <!-- Owl Carousel -->
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        
+        <!-- Accordion -->
+        <script type="text/javascript" src="js/accordion.min.js"></script>
+        
+        <!-- Responsive Tabs -->
+        <script type="text/javascript" src="js/responsive.tabs.min.js"></script>
+        
+        <!-- Responsive Table -->
+        <script type="text/javascript" src="js/responsive.table.min.js"></script>
+        
+        <!-- Masonry -->
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+        
+        <!-- Carousel Swipe -->
+        <script type="text/javascript" src="js/carousel.swipe.min.js"></script>
+        
+        <!-- bxSlider -->
+        <script type="text/javascript" src="js/bxslider.min.js"></script>
+        
+        <!-- Custom Scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/system-logic.js"></script>
+
+    </body>
+
+
+</html>
